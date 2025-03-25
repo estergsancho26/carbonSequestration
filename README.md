@@ -26,3 +26,7 @@ Para ejecutar este proyecto, es necesario contar con:
 
 ```sh
 pip install -r requirements.txt
+```
+
+## Desarrollo del proyecto 
+1. 
