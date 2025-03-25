@@ -8,12 +8,15 @@ Este repositorio contiene el código, datos y análisis utilizados en el estudio
 ```bash
 carbonSequestration/
 ├── 📂 Scripts                # Código fuente en Python
-│   ├── simulacionDatos.py    # Generación de datos sintéticos basados en clima y suelo
-│   ├── concatDatos.py        # Consolidación y preprocesamiento de datos
-│   ├── rothCvineyards.py     # Implementación y simulación del modelo RothC
-│   ├── dfFinales.ipynb       # Preprocesamiento y análisis de los resultados
-│   ├── analisisFinal.ipynb   # Evaluación de impacto y generación de reportes
-└── 📄 README.md              # Información del proyecto
+│   ├── simulacionDatos.py    
+│   ├── concatDatos.py        
+│   ├── rothCvineyards.py     
+│   ├── dfFinales.ipynb       
+│   ├── analisisFinal.ipynb  
+└── 📄 requirements.txt 
+└── 📄 datosLaRioja.xls 
+└── 📄 README.md              
+
 ```
 
 ## Instalación y Requisitos
