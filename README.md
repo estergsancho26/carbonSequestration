@@ -29,4 +29,28 @@ pip install -r requirements.txt
 ```
 
 ## Desarrollo del proyecto 
-1. 
+
+1. **Generación de datos sintéticos**: Este script simula condiciones meteorológicas y de suelo para generar los datos de entrada requeridos por el modelo RothC. Incluye factores como temperatura media mensual, precipitación, evaporación y características del suelo.
+```sh
+python Scripts/simulacionDatos.py
+
+```
+2. **Prprocesamiento**: Agrupa y limpia los datos generados para obtener una estructura homogénea, lista para ser usada por el modelo.
+```sh
+python Scripts/concatDatos.py
+```
+3. **Simulación del Modelo RothC**: Ejecuta la simulación del modelo RothC adaptado al contexto del proyecto. Genera las salidas de carbono orgánico del suelo (SOC) en función del tiempo y de las estrategias agrícolas utilizadas (tradicional, intensiva y orgánica).
+```sh
+python Scripts/rothCvineyards.py
+```
+3. **Análisis de resultados**: Los notebooks permiten visualizar, analizar y comparar los resultados obtenidos, incluyendo:
+
+    - Evolución temporal del SOC.
+    - Comparativa entre tipos de manejo agrícola.
+    - Gráficos de tendencias y correlaciones.
+    - Aplicación de modelos estadísticos (regresión, ARIMA, SARIMA).
+
+```sh
+jupyter nbconvert --to notebook --execute Scripts/dfFinales.ipynb --output Scripts/dfFinales_output.ipynb
+jupyter nbconvert --to notebook --execute Scripts/analisisFinal.ipynb --output Scripts/analisisFinal_output.ipynb
+```
