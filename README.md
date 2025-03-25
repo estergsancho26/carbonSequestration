@@ -13,8 +13,8 @@ carbonSequestration/
 │   ├── rothCvineyards.py     
 │   ├── dfFinales.ipynb       
 │   ├── analisisFinal.ipynb  
-└── 📄 requirements.txt 
-└── 📄 datosLaRioja.xls 
+├── 📄 requirements.txt 
+├── 📄 datosLaRioja.xls 
 └── 📄 README.md              
 
 ```
