@@ -7,6 +7,7 @@ Este repositorio contiene el código, datos y análisis utilizados en el estudio
 
 ```bash
 carbonSequestration/
+├── 📂 Datos Generales        # Conjuntos de datos tanto simulados como resultantes     
 ├── 📂 Scripts                # Código fuente en Python
 │   ├── simulacionDatos.py    
 │   ├── concatDatos.py        
